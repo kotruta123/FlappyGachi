@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -16,33 +14,25 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.R) || Input.GetButtonDown("Cancel") || Input.GetButtonDown("ButtonNorth"))
+        if (Input.GetKey(KeyCode.R))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            Time.timeScale = 1;
+            RestartScene();
         }
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.M))
         {
-            LoadScene(1);
-            Time.timeScale = 1;
+            LoadMainMenu();
         }
-        if (Input.GetKeyDown(KeyCode.M)|| Input.GetButtonDown("ButtonEast"))
-        {
-            LoadScene(0);
-        }
-        if (Input.GetKeyDown(KeyCode.C)|| Input.GetButtonDown("ButtonWest"))
-        {
-            LoadScene(2);
-        }if (Input.GetKeyDown(KeyCode.V)|| Input.GetButtonDown("LeftTriger"))
-        {
-            LoadScene(3);
-        }
-        
     }
 
     public void RestartScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(1); // Load game scene number 1
+        Time.timeScale = 1;
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene(0); // Load main menu scene number 0
         Time.timeScale = 1;
     }
 
