@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96e4e30b-5dff-4cad-812d-0f60247846ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Documentation/NewBlogPost.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Documentation/NewBlogPost/BlogPost1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Documentation/NewBlogPost/BlogPost1.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Documentation/NewBlogPost/Photos.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Bar.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723804875616</updated>
       <workItem from="1723804878632" duration="12808000" />
-      <workItem from="1723982055455" duration="1844000" />
+      <workItem from="1723982055455" duration="8031000" />
     </task>
     <servers />
   </component>
