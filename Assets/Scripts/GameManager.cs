@@ -26,13 +26,13 @@ public class GameManager : MonoBehaviour
 
     public void RestartScene()
     {
-        SceneManager.LoadScene(1); // Load game scene number 1
+        SceneManager.LoadScene(1);
         Time.timeScale = 1;
     }
 
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene(0); // Load main menu scene number 0
+        SceneManager.LoadScene(0); 
         Time.timeScale = 1;
     }
 

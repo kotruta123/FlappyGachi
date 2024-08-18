@@ -6,17 +6,16 @@ public class Bullet : MonoBehaviour
 
     void Start()
     {
-        // Ensure the bullet always moves to the right, relative to its own forward direction
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        rb.velocity = transform.right * speed; // This will move the bullet to the right
+        rb.velocity = transform.right * speed; 
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Burger"))
         {
-            Debug.Log("Bullet hit the Burger!"); // Debug message
-            Destroy(gameObject); // Destroy the bullet when it hits the burger
+            Debug.Log("Bullet hit the Burger!"); 
+            Destroy(gameObject); 
         }
     }
 }

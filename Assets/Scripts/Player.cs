@@ -12,8 +12,8 @@ public class Player : MonoBehaviour
     private SongManager audioManager;
     private PlayerInputActions inputActions;
 
-    public GameObject bulletPrefab; // Bullet Prefab
-    public Transform firePoint; // Position where the bullet is instantiated
+    public GameObject bulletPrefab; 
+    public Transform firePoint; 
 
     private void Awake()
     {
@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
         inputActions = new PlayerInputActions();
 
         inputActions.Player.Jump.performed += ctx => Jump();
-        inputActions.Player.Shoot.performed += ctx => Shoot(); // Listen for shoot button press
+        inputActions.Player.Shoot.performed += ctx => Shoot(); 
     }
 
     private void OnEnable()
@@ -61,9 +61,9 @@ public class Player : MonoBehaviour
 
     private void Shoot()
     {
-        // Instantiate the bullet at the FirePoint's position and rotation
+       
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        bullet.transform.position = firePoint.position;  // Ensure bullet's position matches FirePoint
+        bullet.transform.position = firePoint.position;  
     }
 
 
@@ -76,7 +76,7 @@ public class Player : MonoBehaviour
         else if (other.gameObject.CompareTag("Burger"))
         {
             Debug.Log("Player touched burger - triggering lose window");
-            GameManager.instance.Lose(); // Trigger lose window if the player touches a burger
+            GameManager.instance.Lose(); 
         }
     }
 
@@ -85,7 +85,7 @@ public class Player : MonoBehaviour
         if (other.CompareTag("Burger"))
         {
             Debug.Log("Player touched burger - triggering lose window");
-            GameManager.instance.Lose(); // Trigger lose window if the player touches a burger
+            GameManager.instance.Lose(); 
         }
     }
 

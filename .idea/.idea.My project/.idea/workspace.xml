@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96e4e30b-5dff-4cad-812d-0f60247846ae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Settings.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Settings.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BarSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BarSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Burger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Burger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InfoSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InfoSceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoseWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoseWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuGameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuGameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SettingsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SettingsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SongManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SongManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723804875616</updated>
       <workItem from="1723804878632" duration="12808000" />
+      <workItem from="1723982055455" duration="384000" />
     </task>
     <servers />
   </component>

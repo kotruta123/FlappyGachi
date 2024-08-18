@@ -6,7 +6,7 @@ namespace DefaultNamespace
 {
     public class MenuGameManager : MonoBehaviour
     {
-        public Button[] menuButtons;  // Assign your buttons in the Inspector
+        public Button[] menuButtons;  
         private int selectedIndex = 0;
         private PlayerInputActions inputActions;
 
@@ -57,7 +57,7 @@ namespace DefaultNamespace
             for (int i = 0; i < menuButtons.Length; i++)
             {
                 var colors = menuButtons[i].colors;
-                colors.normalColor = (i == index) ? Color.yellow : Color.white; // Selected button turns yellow, others are white
+                colors.normalColor = (i == index) ? Color.yellow : Color.white; 
                 menuButtons[i].colors = colors;
             }
         }

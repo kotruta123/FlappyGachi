@@ -24,6 +24,6 @@ public class InfoSceneManager : MonoBehaviour
 
     private void GoBackToMainMenu()
     {
-        SceneManager.LoadScene(0); // Load the main menu scene (scene index 0)
+        SceneManager.LoadScene(0); 
     }
 }

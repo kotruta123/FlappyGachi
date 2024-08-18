@@ -38,7 +38,7 @@ public class SongManager : MonoBehaviour
             }
         }
 
-        // Load saved volume settings
+       
         musicSource.volume = PlayerPrefs.GetFloat("MusicVolume", musicSource.volume);
         sfxSource.volume = PlayerPrefs.GetFloat("SFXVolume", sfxSource.volume);
     }

@@ -108,11 +108,11 @@ public class SettingsManager : MonoBehaviour
 
     private void ConfirmSelection()
     {
-        // If needed, you can trigger something when confirming the selection
+        
     }
 
     private void GoBackToMainMenu()
     {
-        SceneManager.LoadScene(0); // Load the main menu scene
+        SceneManager.LoadScene(0); 
     }
 }

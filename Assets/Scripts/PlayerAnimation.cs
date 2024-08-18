@@ -4,7 +4,7 @@ public class PlayerAnimation : MonoBehaviour
 {
     [SerializeField] private float rotationSpeed;
     [SerializeField] private float takeOffRotation, landingRotation;
-    public Animator animator; // Attach your Animator here
+    public Animator animator; 
 
     private float rotZ;
 
@@ -28,6 +28,6 @@ public class PlayerAnimation : MonoBehaviour
 
     public void PlayShootAnimation()
     {
-        animator.SetTrigger("Shoot"); // Ensure there's a trigger named "Shoot" in the Animator
+        animator.SetTrigger("Shoot"); 
     }
 }

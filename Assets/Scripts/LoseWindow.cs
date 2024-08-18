@@ -14,7 +14,7 @@ public class LoseWindow : MonoBehaviour
 
     private SongManager audioManager;
     private PlayerInputActions inputActions;
-    private int selectedIndex = 0; // To track the selected button
+    private int selectedIndex = 0; 
 
     private void Awake()
     {
@@ -29,11 +29,11 @@ public class LoseWindow : MonoBehaviour
     public void DisplayScores(int score, int bestScore)
     {
         scoreText.text = "Score: " + score.ToString();
-        bestScore = PlayerPrefs.GetInt("BestScore", 0); // Retrieve the best score, default to 0 if not found
+        bestScore = PlayerPrefs.GetInt("BestScore", 0); 
         if (score > bestScore)
         {
             bestScore = score;
-            PlayerPrefs.SetInt("BestScore", bestScore); // Save the new best score
+            PlayerPrefs.SetInt("BestScore", bestScore); 
         }
         bestScoreText.text = "Best Score: " + bestScore.ToString();
 
@@ -68,7 +68,7 @@ public class LoseWindow : MonoBehaviour
             selectedIndex++;
         }
 
-        selectedIndex = Mathf.Clamp(selectedIndex, 0, 1); // We only have 2 buttons (Restart and Main Menu)
+        selectedIndex = Mathf.Clamp(selectedIndex, 0, 1); 
 
         HighlightButton(selectedIndex);
     }
@@ -77,21 +77,20 @@ public class LoseWindow : MonoBehaviour
     {
         if (selectedIndex == 0)
         {
-            RestartScene(); // Restart the game
+            RestartScene(); 
         }
         else if (selectedIndex == 1)
         {
-            LoadMainMenu(); // Go to main menu
+            LoadMainMenu(); 
         }
     }
 
     private void HighlightButton(int index)
     {
-        // Reset button colors to normal
         restartButton.GetComponent<Image>().color = Color.white;
         mainMenuButton.GetComponent<Image>().color = Color.white;
 
-        // Highlight the selected button
+        
         if (index == 0)
         {
             restartButton.GetComponent<Image>().color = Color.yellow;
@@ -104,15 +103,15 @@ public class LoseWindow : MonoBehaviour
 
     private void RestartScene()
     {
-        DisableMenuActions(); // Disable input before changing the scene
-        SceneManager.LoadScene(1); // Load game scene number 1
+        DisableMenuActions(); 
+        SceneManager.LoadScene(1); 
         Time.timeScale = 1;
     }
 
     private void LoadMainMenu()
     {
-        DisableMenuActions(); // Disable input before changing the scene
-        SceneManager.LoadScene(0); // Load main menu scene number 0
+        DisableMenuActions(); 
+        SceneManager.LoadScene(0); 
         Time.timeScale = 1;
     }
 }
