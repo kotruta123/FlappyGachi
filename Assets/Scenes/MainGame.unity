@@ -3276,9 +3276,9 @@ MonoBehaviour:
   barPrefab: {fileID: 8056642756963113042, guid: cc24374b20a5b8040aa3b93384b2413f, type: 3}
   burgerPrefab: {fileID: 7674524526962880542, guid: 4e1a9b77bcf055347865b63694719b5a, type: 3}
   timeToSpawn: 4
-  minYPossition: 0
-  maxYPossition: 0
-  burgerSpawnChance: 0.1
+  minYPossition: 1
+  maxYPossition: 3
+  burgerSpawnChance: 0.377
 --- !u!1 &1953802073
 GameObject:
   m_ObjectHideFlags: 0
