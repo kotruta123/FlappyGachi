@@ -3,7 +3,7 @@
 ## MyGame on Webpage:
 https://kotruta123.github.io/GamePage/
 
-## Blog Posts
+## Blog Posts and User Guide
 https://github.com/kotruta123/NewBlogPost
 
 # Video on Youtube
