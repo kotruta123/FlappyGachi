@@ -1,6 +1,6 @@
 # Flappy Gachimuchi
 
-# MyGame on Webpage:
+## MyGame on Webpage:
 https://kotruta123.github.io/GamePage/
 
 ## Blog Posts
