@@ -21,7 +21,7 @@ SFX and music control
 ### I have added: 
 I have created the settings menu. In the it i have added new elements that permits to cotroll them. Also i have added a new script that makes this control. It is possible to minimize and maximize the volume.
 ### Bug and Solution
-The Script didnt work corectly, it didnt save the settings of music and SFX, but it was fixed by trying different methods.
+The Script didn't work correctly, it didn't save the settings of music and SFX, but it was fixed by trying different methods.
 
 ### Feature 4
 New player animation
@@ -33,5 +33,11 @@ I have added a new script that handles it. For now the user when jumps rotates t
 Info  Page
 
 ### I have added: 
-In the info page i have added and chancged the background I have added a button to main menu, and also i have added a text with the creator of the game. 
+In the info page i have added and changed the background I have added a button to main menu, and also i have added a text with the creator of the game. 
 
+### Feature 6
+
+A player shoots the burger
+
+### I have added:
+I have added new objects as to perform the shooting of the player. The player press a button and the bulet apears, after that when the bullet touches the burger, the burger disappears and player get extra points for this. If the player touches the burger the death menu will be triggered and the scene will stop. 

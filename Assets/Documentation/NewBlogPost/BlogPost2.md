@@ -8,7 +8,7 @@ Flappy Gachimuchi is a 2D single-player experience inspired by Flappy Birds. The
 ### Target Audience
 The game is designed for casual gamers who enjoy retro-style, pixel art platformers, and lovers of gachimuchi. It is suitable for players of all ages who appreciate simple yet challenging gameplay mechanics.
 
-### Unique Selling Points
+### Features
 - 2D pixel art style with a nostalgic aesthetic
 - Simple and intuitive controls
 - Engaging and dynamic environment with background animations

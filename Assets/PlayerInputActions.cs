@@ -922,17 +922,6 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""3adb7838-2979-4619-9260-10dbcb18ab79"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Navigate"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""cefc9b0f-1ccd-4582-9db9-761cb3dc6a53"",
                     ""path"": ""<Keyboard>/enter"",
                     ""interactions"": """",

@@ -37,10 +37,8 @@ public class LoseWindow : MonoBehaviour
         }
         bestScoreText.text = "Best Score: " + bestScore.ToString();
 
-        // Play the death sound
         audioManager.PlayDeathSound();
 
-        // Enable input actions for the menu
         EnableMenuActions();
     }
 
